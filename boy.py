@@ -183,6 +183,10 @@ class StateMachine:
                 a_down: AutoRun,
             },
             AutoRun: {
+                right_down: Run,
+                left_down: Run,
+                right_up: IDLE,
+                left_up: IDLE,
                 time_out: IDLE,
             },
         }
